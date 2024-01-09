@@ -2,7 +2,7 @@ from tensorflow.keras.datasets import mnist
 import tensorflow as tf
 import optuna
 
-from source.hyperparameter_optimisation.model import ImageClassifier
+from projects.hyperparameter_optimisation.source.model import ImageClassifier
 
 def load_data():
     data_split = mnist.load_data()
